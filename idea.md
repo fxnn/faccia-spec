@@ -60,3 +60,14 @@ unified graphical user interface.
 Every since I was a child, I wondered whether this could be a valid approach
 for computer systems.
 Faccia is my attempt to research this idea.
+
+License
+-------
+
+Copyright (c) 2016 Felix Neumann.
+
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3
+or any later version published by the Free Software Foundation;
+with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+A copy of the license is included in the file `LICENSE`.
