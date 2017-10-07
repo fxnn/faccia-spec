@@ -4,6 +4,12 @@ Faccia: Idea
 Faccia is a software system to provide integrated and unified interfaces to
 multiple, heterogenous computer systems.
 
+Problem
+-------
+
+Approach
+--------
+
 Hereby, a **computer system** is any system that offers its functionality via
 an interface to third party software.
 An interface could be e.g. REST, SOAP, RPC or simple commandline calls.
@@ -51,8 +57,8 @@ Naming
 The name Faccia is the italian word for _face_.
 It reminds of Faccia being a facade for multiple systems.
 
-Motivation
-----------
+Personal Motivation
+-------------------
 
 In Star Trek&#174;, computer systems are accessed using the
 [LCARS](https://en.wikipedia.org/wiki/LCARS), which can be perceived as a
