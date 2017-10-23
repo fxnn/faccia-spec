@@ -17,23 +17,24 @@ but not to the users needs.
 
 Looking at how user interfaces are implemented and integrated,
 the means are quite low-level.
-The implementation happens in terms of graphical elements like images,
-bars, panels and boxes, complemented by individual algorithms generating
-graphics.
+The implementation happens in terms of standard and custom-made graphical
+elements like images, bars, buttons and boxes.
 If a clear separation from business logic exists, it happens through
 individually designed interfaces, either consisting of simple method calls,
-or loosely adhering to communication protocols like SOAP and REST,
-and oftenly not offering any hints on the superior structures,
-relationships and semantics.
+or loosely adhering to communication protocols like SOAP and REST.
+Most often, these interfaces transport data, but do only offer few (if none
+at all) hints on the superior structure, relationships and semantics of
+the data.
 
-This contrasts to the information transported through these technical and
-graphical interfaces, which nearly always obeys to a superior structure,
-having clear relationships and a well-defined semantics -- because otherwise,
-the user wouldn't be able to understand and use the software.
+This contrasts to the information actually described by the data.
+The information always obeys to a superior structure, having clear
+relationships and a well-defined semantics -- because otherwise,
+no human user would be able to understand and use the interfaces.
 Therefore, we have a gap between the information transported and the means
 of transportation.
-Specifically, there is no concrete model of the interface between user and
-business logic, and thus there might be no abstract reasoning and no
+Specifically, there is no general model that describes interfaces between
+user and business logic.
+But without a model there might might be no abstract reasoning and no
 generic logic regarding the user interface.
 
 Filling this gap by providing a common interface model for multiple
