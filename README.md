@@ -92,6 +92,19 @@ be as follows.
    * The user connects his tablet to a couple of virtual machines, controlling
      the VMs from his tablet.
 
+Related Work
+------------
+
+* [OpenAPI Initiative](https://www.openapis.org/), specifying a common description
+  language for REST services.
+  It's a great source of information about a single REST interface, but does not
+  currently describe interaction/integration between multiple interfaces.
+  It is also not possible to enrich the description, i.e. with presentation
+  information.
+  Moreover, Personal Information Supply aims to use the pipes and filters approach,
+  which OpenAPI doesn't.
+  
+
 Personal Motivation
 -------------------
 
@@ -100,7 +113,7 @@ In Star Trek&#174;, computer systems are accessed using the
 unified graphical user interface.
 Every since I was a child, I wondered whether this could be a valid approach
 for computer systems.
-Faccia is my attempt to research this idea.
+This specification is my attempt to research this idea.
 
 License
 -------
