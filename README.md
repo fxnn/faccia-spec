@@ -1,5 +1,5 @@
-Personal Information Supply
-===========================
+Universal Gateway
+=================
 
 This document describes a software architecture that satisfies the need
 for an integrated and flexible interface to multiple, heterogenous computer systems.
@@ -64,7 +64,7 @@ An **interface** could possibly be
 * an interface for automatic service discovery through third party software.
 * an application programmer's interface (API).
 
-Thus, Personal Information Supply aims to **integrate** multiple systems into
+Thus, _Universal Gateway_ aims to **integrate** multiple systems into
 one unified interface, and therefore separates service from interface.
 This allows
 
@@ -74,7 +74,7 @@ This allows
   It is not _necessary_ to go through all the user interface design for every
   application (but should still be _possible_, if wanted). 
 * developers to focus on interface implementation.
-  By improving the interfaces provided through the Personal Information Supply,
+  By improving the interfaces provided through the _Universal Gateway_,
   a benefit for users of many different applications can be created.
 
 Possible user stories of an integrated **graphical user interface** could
@@ -101,7 +101,7 @@ Related Work
   currently describe interaction/integration between multiple interfaces.
   It is also not possible to enrich the description, i.e. with presentation
   information.
-  Moreover, Personal Information Supply aims to use the pipes and filters approach,
+  Moreover, _Universal Gateway_ aims to use the pipes and filters approach,
   which OpenAPI doesn't.
   
 
