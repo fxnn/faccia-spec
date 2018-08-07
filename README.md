@@ -103,6 +103,9 @@ Related Work
   information.
   Moreover, _Universal Gateway_ aims to use the pipes and filters approach,
   which OpenAPI doesn't.
+* [IFML](http://www.ifml.org/), the Interaction Flow Modelling Language, expresses
+  user interaction and content.
+  (Todo: go into more detail. Comparison.)
   
 
 Personal Motivation
